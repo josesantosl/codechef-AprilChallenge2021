@@ -126,8 +126,8 @@ integer ― the maximum possible number of visible pips.
 1
 ** Example Output
 20
-* TODO [[https://www.codechef.com/APRIL21C/problems/KAVGMAT][Worthy Matrix]]
-Chef found a matrix A with N rows (numbered 11 through N) and M columns
+* DONE [[https://www.codechef.com/APRIL21C/problems/KAVGMAT][Worthy Matrix]]
+Chef found a matrix A with N rows (numbered 1 through N) and M columns
  (numbered 1 through M), where for each row r and column c, the cell
  in row r and column c (denoted by(r,c)) contains an integer Ar,c.
 
@@ -163,8 +163,16 @@ Chef wants you to find the number of K-worthy submatrices of A.
 2 2 3
 3 4 5
 4 5 5
+
 ** Example Output
 7
+
+** Explanation
+[3 4 4 5] with average 4; this matrix occurs only once
+[4 5 5 5] with average 4.75; this matrix also occurs only once
+[4] with average 4; we find this matrix twice in A
+[5] with average 5; we find this matrix 3 times in A
+
 * TODO [[https://www.codechef.com/APRIL21C/problems/MEXSTR][Binary String MEX]]
 You are given a binary string SS. Chef defines MEX(S) as the smallest
 non-negative integer such that its binary representation (without 
